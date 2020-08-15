@@ -49,3 +49,67 @@ a:hover {
 	margin-bottom: 40px;
 }
 
+/* ****************************************************************** */
+/* .testimonial, .profille */
+/* ****************************************************************** */
+.testimonial,
+.profile {
+	margin: 0 20px;
+}
+
+/* ****************************************************************** */
+/* .testimonial */
+/* ****************************************************************** */
+.testimonial {
+	margin-bottom: 24px;
+}
+
+.testimonial h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: hsl(217, 19%, 35%);
+	margin-bottom: 24px;
+}
+
+.testimonial p {
+	font-weight: 500;
+	line-height: 1.7;
+	color: hsl(214, 17%, 51%);
+}
+
+/* ****************************************************************** */
+/* .profille */
+/* ****************************************************************** */
+.profile {
+	margin-bottom: 24px;
+}
+
+.profile .photo {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-right: 16px;
+	overflow: hidden;
+}
+
+.profile .photo img {
+	display: block;
+	width: 100%;
+}
+
+.profile strong,
+.profile time {
+	display: block;
+}
+
+.profile strong {
+	margin-bottom: 2px;
+	color: hsl(217, 19%, 35%);
+}
+
+.profile time {
+	color: hsl(212, 23%, 69%);
+}
+
