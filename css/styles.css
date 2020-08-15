@@ -33,3 +33,19 @@ a:hover {
 	background-color: #68A59D;
 }
 
+/* ****************************************************************** */
+/* .post */
+/* ****************************************************************** */
+.post {
+	margin: 0 24px 24px 24px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.post .picture {
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
