@@ -7,3 +7,29 @@
 	border: 0;
 }
 
+/* ****************************************************************** */
+/* Base structure */
+/* ****************************************************************** */
+html {
+	font-family: 'Manrope', sans-serif;
+	font-size: 10pt;
+	background-color: hsl(210, 46%, 95%);
+}
+
+main {
+	padding-top: 70px;
+}
+
+a {
+	display: inline-block;
+	padding: 0 2px;
+	color: #68A59D;
+}
+
+a:hover {
+	color: #fff;
+	border-radius: 4	px;
+	text-decoration: none;
+	background-color: #68A59D;
+}
+
